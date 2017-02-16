@@ -3,6 +3,8 @@
 }
 
 #quotes-box {
+  position: relative;
+  margin: 100px auto auto auto;
   border: solid black 3px;
   border-radius:5px;
   padding-top: 80px;
@@ -21,10 +23,31 @@
   font-weight: bold;
   border-width: 3px;
   border-color:inherit;
+  position: relative;
+  right: 24px;
+}
+
+#quote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #fff;
+}
+
+cite {
+  text-align: center;
+  left: 20px;
+  position: relative;
 }
 
 #tweet-button {
   font-weight: bold;
   border-width: 3px;
   border-color: black;
+  left: 35px;
+  position: relative;
+}
+
+body {
+  background-color: #fff;
 }
